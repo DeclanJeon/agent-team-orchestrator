@@ -1,5 +1,10 @@
 # Agent Team Orchestrator
 
+[![Release](https://img.shields.io/github/v/release/DeclanJeon/agent-team-orchestrator?sort=semver)](https://github.com/DeclanJeon/agent-team-orchestrator/releases)
+[![CI](https://github.com/DeclanJeon/agent-team-orchestrator/actions/workflows/ci.yml/badge.svg)](https://github.com/DeclanJeon/agent-team-orchestrator/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/DeclanJeon/agent-team-orchestrator)](./LICENSE)
+[![Stars](https://img.shields.io/github/stars/DeclanJeon/agent-team-orchestrator?style=social)](https://github.com/DeclanJeon/agent-team-orchestrator/stargazers)
+
 Document-first multi-agent organization pack for Hermes.
 
 This project helps you run AI agents like a real product team without role collision.

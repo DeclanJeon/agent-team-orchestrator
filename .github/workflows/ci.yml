@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Python syntax check
+        run: python3 -m py_compile pack/skill/scripts/bootstrap_project.py
+
+      - name: Installer dry-run
+        run: ./install.sh --dry-run
+
+      - name: Install into isolated Hermes home
+        run: |
+          mkdir -p "$RUNNER_TEMP/bin"
+          HERMES_HOME="$RUNNER_TEMP/hermes-home" BIN_DIR="$RUNNER_TEMP/bin" ./install.sh
+
+      - name: Bootstrap example project
+        run: |
+          mkdir -p "$RUNNER_TEMP/bin"
+          HERMES_HOME="$RUNNER_TEMP/hermes-home" BIN_DIR="$RUNNER_TEMP/bin" ./install.sh
+          "$RUNNER_TEMP/bin/agent-team-bootstrap" "$RUNNER_TEMP/project" --project-name "CI Check"
+          test -f "$RUNNER_TEMP/project/docs/product/vision.md"
+          test -f "$RUNNER_TEMP/project/docs/PRD.md"
+          test -f "$RUNNER_TEMP/project/docs/backend/api_spec.yaml"
+          test -f "$RUNNER_TEMP/project/docs/design/ui_spec.md"
+          test -f "$RUNNER_TEMP/project/docs/task_board.md"
+          test -f "$RUNNER_TEMP/project/prompts/product-owner.md"
+          test -f "$RUNNER_TEMP/project/prompts/reviewer.md"
+          test -f "$RUNNER_TEMP/project/prompts/growth.md"
