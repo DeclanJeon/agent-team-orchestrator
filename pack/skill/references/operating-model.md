@@ -196,6 +196,20 @@
 - 다음 lane이 바로 쓸 수 있을 정도로 명확해야 한다.
 - Approved / In Review / Blocked / Rejected / Integrated 상태 중 하나로 관리돼야 한다.
 
+## 9.1 추천 템플릿 세트
+- `templates/product-vision.md`
+- `templates/product-priorities.md`
+- `templates/success-metrics.md`
+- `templates/PRD.md`
+- `templates/ui-spec.md`
+- `templates/api-spec.yaml`
+- `templates/change-request.md`
+- `templates/task-board.md`
+- `templates/task-instruction.md`
+- `templates/approval-log.md`
+- `templates/review-report.md`
+- `templates/event-schema.md`
+
 ## 10. 추천 폴더 구조
 ```text
 project-root/

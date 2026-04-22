@@ -119,6 +119,9 @@ The bootstrap script generates a document-first workspace including:
 - `pack/skill/references/operating-model.md`
 - `pack/skill/references/prompt-catalog.md`
 - `pack/skill/scripts/bootstrap_project.py`
+- `pack/skill/templates/product-vision.md`
+- `pack/skill/templates/review-report.md`
+- `pack/skill/templates/event-schema.md`
 - `docs/AGENT_TEAM_OPERATING_TEMPLATE.md`
 - `docs/HERMES_APPLY_GUIDE.md`
 

@@ -153,12 +153,21 @@ delegate_task(tasks=[
 ```
 
 ## Use these templates
+Core
 - `templates/task-board.md`
 - `templates/task-instruction.md`
 - `templates/change-request.md`
 - `templates/PRD.md`
 - `templates/ui-spec.md`
 - `templates/api-spec.yaml`
+
+Expanded planning / governance
+- `templates/product-vision.md`
+- `templates/product-priorities.md`
+- `templates/success-metrics.md`
+- `templates/approval-log.md`
+- `templates/review-report.md`
+- `templates/event-schema.md`
 
 ## Bootstrap
 ```bash
