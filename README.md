@@ -132,6 +132,83 @@ The bootstrap script generates a document-first workspace including:
 - Keep integration gated by review, QA, and approval state.
 - Treat Product + PRD + UI/API/ERD + module boundaries as the minimum source-of-truth set.
 
+## What you get from this skill
+
+### 1. Clear role boundaries
+When multiple AI agents work at once, the most common failure mode is role collision.
+This skill reduces that by fixing:
+- what each lane is responsible for
+- what each lane must not change
+- what documents each lane reads
+- what outputs each lane is expected to produce
+
+### 2. Safer parallel execution
+Instead of opening frontend, backend, data, and AI work all at once with no contract, this skill forces a document-first sequence.
+That means parallel work happens after key source-of-truth documents exist, such as:
+- product vision / priorities
+- PRD
+- UI spec
+- API spec
+- ERD
+- module boundaries
+
+### 3. Better output quality
+The skill does not stop at lane assignment.
+It also builds in quality gates such as:
+- reviewer gate
+- security gate
+- QA gate
+- integrator final pass
+
+This makes it much harder to merge plausible-but-wrong output directly into the final result.
+
+### 4. Faster project kickoff
+The included bootstrap flow creates a ready-to-use project workspace with:
+- product documents
+- design and architecture documents
+- backend / data / AI contracts
+- QA / security / ops / growth docs
+- role prompts
+- seeded task board
+- lane task instruction samples
+
+So a new project starts from an organized operating structure instead of an empty directory.
+
+### 5. Reusable team operating model
+Instead of re-explaining the same collaboration rules every session, this skill packages them into a repeatable operating system:
+- lane boundaries
+- handoff rules
+- review gates
+- change request flow
+- bootstrap conventions
+
+That makes the approach reusable across projects, not just within a single conversation.
+
+### 6. Human decision points stay explicit
+This skill is designed so AI lanes can move fast without taking over irreversible product decisions.
+Important checkpoints still stay visible for human approval, especially around:
+- scope
+- release readiness
+- risk acceptance
+- final integration
+
+### Where it helps most
+This skill is especially useful when you want to:
+- run several AI agents like a real team
+- split product, design, engineering, QA, security, ops, and growth work
+- reduce cross-lane interference
+- bootstrap a new project quickly
+- keep parallel implementation grounded in shared contracts
+
+### Where it is probably overkill
+For very small tasks, this structure can be heavier than necessary, for example:
+- one-off scripts
+- tiny bug fixes
+- single-file edits
+- very small prototypes with no parallel work
+
+In those cases, a single agent or a much lighter workflow is usually faster.
+
 ## Key files
 
 - `pack/skill/SKILL.md`
