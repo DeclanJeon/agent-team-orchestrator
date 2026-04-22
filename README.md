@@ -95,13 +95,13 @@ hermes -s agent-team-orchestrator
 ## What bootstrap creates
 
 The bootstrap script generates a document-first workspace including:
-- product docs: vision, priorities, success metrics
-- planning docs: PRD, backlog, release scope, milestones, task board
-- architecture docs: system overview, module boundaries, integration contract
-- design docs: IA, user flow, wireframes, design system, UI spec
-- backend/db docs: API spec, domain model, error policy, ERD
-- data/AI docs: data flow, event schema, ETL plan, model IO contract, evaluation plan
-- review/security/ops/growth docs
+- product docs with structured sections for vision, priorities, and success metrics
+- planning docs with backlog, release scope, milestones, and a seeded multi-lane task board
+- architecture docs with system overview, module boundaries, tech decisions, and integration contract
+- design docs with IA, user flow, wireframes, design system, and per-screen UI spec scaffold
+- backend/db docs with API spec, domain model, error policy, and ERD
+- data/AI docs with data flow, event schema table, ETL plan, model IO contract, and evaluation plan
+- review/security/ops/growth docs with practical tables/checklists instead of empty placeholders
 - role prompt files for each lane
 - QA, infra, and final integration/runbook files
 
