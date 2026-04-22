@@ -22,6 +22,9 @@ It ships as a local Hermes skill plus a one-click bootstrap flow.
 - Hermes skill: `agent-team-orchestrator`
 - one-click installer: `./install.sh`
 - one-click project bootstrapper: `agent-team-bootstrap`
+- uninstall script: `./uninstall.sh`
+- release packaging helper: `./package-release.sh`
+- quick installer for hosted tarballs: `./quick-install.sh`
 - operating model for a full AI org, not just dev lanes
 - prompt catalog for each role
 - templates for PRD, task board, task instruction, change request, UI spec, and API spec
@@ -93,6 +96,18 @@ hermes skills list | grep agent-team-orchestrator
 
 ```bash
 hermes -s agent-team-orchestrator
+```
+
+### 5. Package a release tarball
+
+```bash
+./package-release.sh v1.0.0
+```
+
+### 6. Uninstall locally
+
+```bash
+./uninstall.sh
 ```
 
 ## What bootstrap creates
@@ -182,6 +197,19 @@ Verified locally:
 ```bash
 rm -rf ~/.hermes/skills/agent-team-orchestrator
 rm -f ~/.local/bin/agent-team-bootstrap
+```
+
+Or simply run:
+
+```bash
+./uninstall.sh
+```
+
+## Release packaging
+
+```bash
+./package-release.sh v1.0.0
+SKILL_REPO_URL="https://github.com/DeclanJeon/agent-team-orchestrator/releases/download/v1.0.0/agent-team-orchestrator-v1.0.0.tar.gz" ./quick-install.sh
 ```
 
 ## License
