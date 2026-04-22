@@ -1,0 +1,12 @@
+# Task Instruction
+- 작업 ID: T-005
+- 담당 에이전트: Backend Engineer + Data Engineer + AI Engineer
+- 작업명: API / ERD / triage-signal contract 정리
+- 목적: triage 가능한 request schema와 future AI assist signal을 먼저 고정한다.
+- 입력 문서: docs/PRD.md, docs/design/ui_spec.md
+- 작업 범위: docs/backend/api_spec.yaml, docs/db/erd.md, docs/data/event_schema.md, docs/ai/model_io_contract.md
+- 금지 사항: UI 흐름 변경
+- 출력물 경로: docs/backend/*, docs/db/*, docs/data/*, docs/ai/*
+- 완료 기준: request create/read/update contract와 status model, event schema가 정리되어야 한다.
+- 선행 조건: PRD 존재
+- 후속 작업 대상: Reviewer / Frontend

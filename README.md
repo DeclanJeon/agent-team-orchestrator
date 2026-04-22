@@ -25,6 +25,8 @@ It ships as a local Hermes skill plus a one-click bootstrap flow.
 - operating model for a full AI org, not just dev lanes
 - prompt catalog for each role
 - templates for PRD, task board, task instruction, change request, UI spec, and API spec
+- operator playbook for recommended execution order: `docs/OPERATOR_PLAYBOOK.md`
+- a seeded example workspace: `examples/minimal-product/`
 
 ## Supported team structure
 
@@ -127,6 +129,8 @@ The bootstrap script generates a document-first workspace including:
 - `pack/skill/templates/event-schema.md`
 - `docs/AGENT_TEAM_OPERATING_TEMPLATE.md`
 - `docs/HERMES_APPLY_GUIDE.md`
+- `docs/OPERATOR_PLAYBOOK.md`
+- `examples/minimal-product/README.md`
 
 ## Example workflow
 
@@ -150,6 +154,12 @@ Only after that should you open parallel implementation lanes.
 
 If you want ready-to-paste prompts, start from:
 - `pack/skill/references/starter-prompts.md`
+
+If you want the recommended order of operation for a real project, read:
+- `docs/OPERATOR_PLAYBOOK.md`
+
+If you want a concrete seeded example workspace, open:
+- `examples/minimal-product/`
 
 ## Verification
 

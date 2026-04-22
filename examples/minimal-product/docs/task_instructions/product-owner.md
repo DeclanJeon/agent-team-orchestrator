@@ -1,0 +1,12 @@
+# Task Instruction
+- 작업 ID: T-001/T-002
+- 담당 에이전트: Product Owner
+- 작업명: 비전/우선순위 정의
+- 목적: 어떤 요청을 좋은 요청으로 볼지 제품 기준을 정한다.
+- 입력 문서: 사용자 요구사항, operator interviews
+- 작업 범위: docs/product/vision.md, docs/product/priorities.md, docs/product/success_metrics.md
+- 금지 사항: 세부 UI/API 설계
+- 출력물 경로: docs/product/*
+- 완료 기준: must win / deferred / success metric이 모두 명시되어야 한다.
+- 선행 조건: 없음
+- 후속 작업 대상: PM

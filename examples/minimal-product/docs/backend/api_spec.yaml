@@ -1,0 +1,16 @@
+openapi: 3.0.3
+info:
+  title: Minimal Product Example API
+  version: 0.1.0
+paths:
+  /requests:
+    post:
+      summary: Submit a new public request
+    get:
+      summary: List requests for owner inbox
+  /requests/{requestId}:
+    get:
+      summary: Read request detail
+  /requests/{requestId}/status:
+    patch:
+      summary: Update request status
