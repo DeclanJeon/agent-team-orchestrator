@@ -27,6 +27,7 @@ It ships as a local Hermes skill plus a one-click bootstrap flow.
 - templates for PRD, task board, task instruction, change request, UI spec, and API spec
 - operator playbook for recommended execution order: `docs/OPERATOR_PLAYBOOK.md`
 - a seeded example workspace: `examples/minimal-product/`
+- versioned social preview asset: `assets/social-preview.svg`
 
 ## Supported team structure
 
@@ -130,7 +131,9 @@ The bootstrap script generates a document-first workspace including:
 - `docs/AGENT_TEAM_OPERATING_TEMPLATE.md`
 - `docs/HERMES_APPLY_GUIDE.md`
 - `docs/OPERATOR_PLAYBOOK.md`
+- `docs/SOCIAL_PREVIEW_SETUP.md`
 - `examples/minimal-product/README.md`
+- `assets/social-preview.svg`
 
 ## Example workflow
 
@@ -160,6 +163,10 @@ If you want the recommended order of operation for a real project, read:
 
 If you want a concrete seeded example workspace, open:
 - `examples/minimal-product/`
+
+If you want to set the GitHub social preview image, use:
+- `assets/social-preview.svg`
+- `docs/SOCIAL_PREVIEW_SETUP.md`
 
 ## Verification
 

@@ -1,0 +1,52 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#1B2A52"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="210" y1="190" x2="1070" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+    <filter id="blur" x="0" y="0" width="1280" height="640" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" rx="32" fill="url(#bg)"/>
+
+  <g opacity="0.22" filter="url(#blur)">
+    <circle cx="238" cy="158" r="110" fill="#7C3AED"/>
+    <circle cx="1050" cy="150" r="150" fill="#3B82F6"/>
+    <circle cx="980" cy="510" r="130" fill="#14B8A6"/>
+  </g>
+
+  <rect x="72" y="70" width="1136" height="500" rx="28" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)"/>
+
+  <g opacity="0.95">
+    <rect x="112" y="118" width="184" height="40" rx="20" fill="rgba(255,255,255,0.08)"/>
+    <text x="132" y="144" fill="#C7D2FE" font-size="20" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">Hermes Skill Pack</text>
+  </g>
+
+  <text x="112" y="248" fill="white" font-size="72" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="800">Agent Team</text>
+  <text x="112" y="326" fill="white" font-size="72" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="800">Orchestrator</text>
+
+  <text x="112" y="386" fill="#D1D5DB" font-size="28" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="500">Document-first multi-agent product organization for Hermes</text>
+  <text x="112" y="428" fill="#9CA3AF" font-size="22" font-family="Inter,Segoe UI,Arial,sans-serif">Role boundaries • Handoff contracts • Review gates • One-click bootstrap</text>
+
+  <g transform="translate(824 156)">
+    <rect x="0" y="0" width="312" height="268" rx="24" fill="rgba(12,18,36,0.76)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="28" y="44" fill="#E5E7EB" font-size="20" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">Core lanes</text>
+    <text x="28" y="82" fill="#A5B4FC" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif">• Product Owner / PM</text>
+    <text x="28" y="116" fill="#93C5FD" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif">• UXUI / Architect / Reviewer</text>
+    <text x="28" y="150" fill="#6EE7B7" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif">• Frontend / Backend / Data / AI</text>
+    <text x="28" y="184" fill="#FDE68A" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif">• QA / DevOps / Security</text>
+    <text x="28" y="218" fill="#F9A8D4" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif">• Ops / Growth / Integrator</text>
+  </g>
+
+  <g transform="translate(112 488)">
+    <rect x="0" y="0" width="260" height="44" rx="22" fill="url(#accent)"/>
+    <text x="24" y="29" fill="white" font-size="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="800">github.com/DeclanJeon</text>
+  </g>
+</svg>
