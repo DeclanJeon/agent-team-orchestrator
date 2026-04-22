@@ -177,3 +177,4 @@ python3 scripts/bootstrap_project.py /path/to/project --project-name "Example Ap
 
 이 스크립트는 제품/설계/개발/데이터/보안/운영/성장 문서 골격과 역할별 프롬프트를 생성한다.
 기본 placeholder만 만드는 수준이 아니라, task board / review / growth / security / QA 문서에 바로 채워 넣을 수 있는 표와 체크리스트를 함께 만든다.
+또한 주요 lane별 예시 작업지시서를 `docs/task_instructions/` 아래에 함께 생성해 처음 사용하는 팀도 즉시 작업을 배정할 수 있게 한다.

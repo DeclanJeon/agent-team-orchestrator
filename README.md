@@ -102,6 +102,7 @@ The bootstrap script generates a document-first workspace including:
 - backend/db docs with API spec, domain model, error policy, and ERD
 - data/AI docs with data flow, event schema table, ETL plan, model IO contract, and evaluation plan
 - review/security/ops/growth docs with practical tables/checklists instead of empty placeholders
+- lane-specific task instruction samples under `docs/task_instructions/`
 - role prompt files for each lane
 - QA, infra, and final integration/runbook files
 
