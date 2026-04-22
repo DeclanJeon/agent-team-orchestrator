@@ -118,6 +118,8 @@ The bootstrap script generates a document-first workspace including:
 - `pack/skill/SKILL.md`
 - `pack/skill/references/operating-model.md`
 - `pack/skill/references/prompt-catalog.md`
+- `pack/skill/references/starter-prompts.md`
+- `pack/skill/evals.json`
 - `pack/skill/scripts/bootstrap_project.py`
 - `pack/skill/templates/product-vision.md`
 - `pack/skill/templates/review-report.md`
@@ -144,6 +146,9 @@ Then fill these first:
 - `docs/task_board.md`
 
 Only after that should you open parallel implementation lanes.
+
+If you want ready-to-paste prompts, start from:
+- `pack/skill/references/starter-prompts.md`
 
 ## Verification
 

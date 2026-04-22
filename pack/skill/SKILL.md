@@ -33,8 +33,9 @@ metadata:
 ## Read in this order
 1. `references/operating-model.md` — 전체 조직 구조, 문서 체계, 승인 규칙
 2. `references/prompt-catalog.md` — 역할별 프롬프트
-3. `templates/*` — task board, task instruction, change request, PRD, UI, API 템플릿
-4. `scripts/bootstrap_project.py` — 프로젝트 초기 문서/프롬프트 골격 생성기
+3. `references/starter-prompts.md` — Hermes에 바로 붙여넣는 스타터 프롬프트 세트
+4. `templates/*` — task board, task instruction, change request, PRD, UI, API 템플릿
+5. `scripts/bootstrap_project.py` — 프로젝트 초기 문서/프롬프트 골격 생성기
 
 ## Full role map
 ### Decision / Coordination lanes

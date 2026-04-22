@@ -1,0 +1,23 @@
+{
+  "skill_name": "agent-team-orchestrator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "여러 에이전트를 PM, 디자이너, 프론트, 백엔드, QA로 나눠서 일이 안 섞이게 프로젝트 시작 템플릿을 잡아줘. Hermes에서 바로 쓰고 싶어.",
+      "expected_output": "The skill should provide a document-first multi-lane setup with role boundaries, baseline docs, and bootstrap guidance.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "PO/PM/UXUI/BE/FE/Data/AI/Security/Ops/Growth까지 분리해서 AI 팀 운영 규칙을 만들고, 변경 요청 절차까지 포함해줘.",
+      "expected_output": "The skill should trigger and emphasize full-team structure, handoff contracts, and governance documents rather than only implementation lanes.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Hermes에 설치 가능한 형태로 멀티 에이전트 프로젝트 운영 팩을 만들고, 새 프로젝트 문서 골격까지 원클릭으로 생성하고 싶어.",
+      "expected_output": "The skill should trigger and mention installer/bootstrap flow plus source-of-truth documents needed before parallel work.",
+      "files": []
+    }
+  ]
+}
